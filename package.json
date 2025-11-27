@@ -1,0 +1,22 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "channel.js",
+  "scripts": {
+    "dev": "wds --node-resolve .",
+    "build": "rollup --config rollup.config.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@web/dev-server": "^0.3.2",
+    "rollup": "^4.0.2"
+  },
+  "dependencies": {
+    "firebase": "^10.4.0",
+    "lit": "^2.8.0"
+  }
+}
